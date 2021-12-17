@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<title> تماس با من </title>
+	</head>
+	
+	<body>
+		<header>
+		<img class="logo" src="logo.png" width="120" height="120">
+		&nbsp &nbsp
+		 <h1>دانشگاه صنعتی شریف </h1>
+		</header>
+		<nav>
+			<ul>
+				<li> <a href="MainPage.html"> صفحه اصلی </a></li>
+				<li> <a href="Ability.html"> توانمندی ها و دستاوردها</a> </li>
+				<li> <a href="Contact.html"> تماس با من </a></li>
+			</ul>
+		</nav> <br>
+		<form action=""method="">
+			<label for="name">نام: </label> &nbsp <input type="text" id="name" name=""> <br>
+			<label for="family">نام خانوادگی: </label> &nbsp <input type="text" id="family" name=""> <br>
+			<label for="email">آدرس پست الکترونیک: </label> &nbsp <input type="text" id="email" name=""> <br>
+			نظرات: <br> 
+			&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <textarea rows="10" cols="40"  ></textarea> <br>
+			&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+			&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+			&nbsp &nbsp &nbsp 
+			<button onclick="myFunction()">ثبت نظرات</button>
+			<p id="demo"></p>
+			<script>
+				function myFunction() {
+					var txt;
+					if (confirm("از ثبت نظر خود اطمینان دارید؟")) {
+						txt = "نظر شما با موفقیت ثبت شد";
+					} else {
+						txt = "نظر شما ثبت نشد";
+					}
+					alert(txt)
+				}
+			</script>
+		</form>
+	</body>
+	<footer>
+		<br>
+		<br>
+		<p> <a href="mailto:ghazallthn@gmail.com">ghazallthn@gmail.com</a></p>
+		<p> <a href= "https://github.com/Ghazalthn"> my github </a> </p>
+		<p> <a href= "https://stackoverflow.com/users/17501478/ghazal"> my stackoverflow </a></p>
+	</footer>
+	
+</html>
